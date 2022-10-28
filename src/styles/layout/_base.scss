@@ -1,0 +1,45 @@
+// Base
+@use "sass:math";
+@use "../init/functions" as func;
+
+body {
+  background-color: var(--color-grey);
+  color: var(--color-brand-dark);
+  font-family: "Outfit";
+  font-weight: 400;
+  text-align: center;
+  display: grid;
+  place-content: center;
+  font-size: func.rem(15px);
+  line-height: math.div(19, 15);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: var(--color-brand-dark);
+}
+
+:link,
+button {
+  border-radius: 0.2em;
+
+  &:not([tabindex="-1"]) {
+    @media (prefers-reduced-motion: no-preference) {
+      transition: all 0.3s ease-out;
+    }
+
+    &:hover {
+      filter: brightness(0.6);
+    }
+
+    &:focus-visible {
+      outline: solid var(--focus-color) func.rem(3px);
+      outline-offset: func.rem(3px);
+    }
+  }
+}

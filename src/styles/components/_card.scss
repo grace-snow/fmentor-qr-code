@@ -1,0 +1,29 @@
+/* Card Component */
+@use "sass:math";
+@use "../init/functions" as func;
+
+.card {
+  margin: var(--gap) auto;
+  padding: var(--gap);
+  max-width: func.rem(320px);
+  background-color: var(--color-white);
+  border-radius: var(--radius);
+}
+
+.card__img {
+  --radius: 10px;
+  border-radius: var(--radius);
+}
+
+.card__title {
+  color: var(--color-brand-dark);
+  margin: var(--gap) 0;
+  font-size: func.rem(22px);
+  line-height: math.div(28, 22);
+}
+
+.card__content {
+  color: var(--color-brand-light);
+  margin: var(--gap) auto;
+  max-width: 26ch;
+}
