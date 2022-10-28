@@ -1,6 +1,6 @@
 // Base
 @use "sass:math";
-@use "../init/functions" as func;
+@use "../abstracts/functions" as func;
 
 body {
   background-color: var(--color-grey);

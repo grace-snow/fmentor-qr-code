@@ -1,5 +1,5 @@
 /* Footer */
-@use "../init/functions" as func;
+@use "../abstracts/functions" as func;
 
 .footer {
   font-size: func.rem(14px);

@@ -1,6 +1,6 @@
 /* Card Component */
 @use "sass:math";
-@use "../init/functions" as func;
+@use "../abstracts/functions" as func;
 
 .card {
   margin: var(--gap) auto;
