@@ -14,6 +14,7 @@
 .card__img {
   --radius: 10px;
   border-radius: var(--radius);
+  aspect-ratio: 1;
 }
 
 .card__title {
