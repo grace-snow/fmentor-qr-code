@@ -14,3 +14,53 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+# All bin and obj folders.
+bin/
+obj/
+
+# Visual Studio files.
+*.user
+*.suo
+*.psess
+
+# General cache files.
+*.cache
+
+# Mac cache files.
+*/.DS_Store
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+__MACOSX
+.idea
+
+# Windows cache.
+Thumbs.db
+
+# Sass Cache
+.sass-cache/
+
+# Temp files
+*~
+
+# Microsoft Office temporary files.
+*.~vsd
+
+# Vim temporary files.
+*.swp
+erb
+
+
+##############################################################
+# Global Ignores.
+##############################################################
+
+# Node
+node_modules/
+/node_modules
+node_modules
