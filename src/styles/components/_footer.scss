@@ -1,0 +1,13 @@
+/* Footer */
+@use "../abstracts/functions" as func;
+
+.footer {
+  font-size: func.rem(14px);
+  text-align: center;
+  padding: 0 var(--gap);
+  max-width: 40ch;
+
+  a {
+    color: darkblue;
+  }
+}
