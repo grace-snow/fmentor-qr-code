@@ -1,0 +1,22 @@
+{
+  "name": "fmentor-qr-code",
+  "version": "1.0.0",
+  "description": "Frontend mentor challenge to create a simple card component",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/styles/main.scss dist/styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grace-snow/fmentor-qr-code.git"
+  },
+  "author": "Grace Snow <graceSnowDesign@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grace-snow/fmentor-qr-code/issues"
+  },
+  "homepage": "https://github.com/grace-snow/fmentor-qr-code#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
