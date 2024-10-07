@@ -3,7 +3,7 @@
 @use "../abstracts/functions" as func;
 
 .card {
-  // margin: var(--gap) auto;
+  margin: var(--gap) auto;
   padding: 15px;
   max-width: func.rem(320px);
   background-color: var(--color-white);

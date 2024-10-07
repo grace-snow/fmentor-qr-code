@@ -1,25 +1,25 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
+  "folders": [
+    {
+      "path": "."
+    }
   ],
   "settings": {
     "workbench.colorCustomizations": {
-      "commandCenter.border": "#15202b99",
-      "sash.hoverBorder": "#40ef91",
-      "statusBar.background": "#13e976",
-      "statusBar.foreground": "#15202b",
-      "statusBarItem.hoverBackground": "#0fba5e",
-      "statusBarItem.remoteBackground": "#13e976",
-      "statusBarItem.remoteForeground": "#15202b",
-      "tab.activeBorder": "#40ef91",
-      "titleBar.activeBackground": "#13e976",
-      "titleBar.activeForeground": "#15202b",
-      "titleBar.inactiveBackground": "#13e97699",
-      "titleBar.inactiveForeground": "#15202b99"
+      "commandCenter.border": "#e7e7e799",
+      "sash.hoverBorder": "#5e9cfb",
+      "statusBar.background": "#2c7dfa",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#5e9cfb",
+      "statusBarItem.remoteBackground": "#2c7dfa",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "tab.activeBorder": "#5e9cfb",
+      "titleBar.activeBackground": "#2c7dfa",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#2c7dfa99",
+      "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#13e976",
+    "peacock.color": "#2C7DFA",
     "editor.formatOnSave": true
   }
 }
