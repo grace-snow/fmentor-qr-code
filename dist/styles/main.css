@@ -3,7 +3,7 @@
   --max-content: 75rem;
   --gap: 1rem;
   --radius: 20px;
-  --focus-color: orange;
+  --focus-color: #793b9c;
   --color-white: hsl(0, 0%, 100%);
   --color-grey: hsl(212, 45%, 89%);
   --color-brand-light: hsl(220, 15%, 55%);
@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 
-:where([hidden]:not([hidden=until-found])) {
+:where([hidden]:not([hidden="until-found"])) {
   display: none !important;
 }
 
@@ -55,7 +55,7 @@
   resize: block;
 }
 
-:where(button, label, select, summary, [role=button], [role=option]) {
+:where(button, label, select, summary, [role="button"], [role="option"]) {
   cursor: pointer;
 }
 
@@ -151,7 +151,7 @@ button {
 }
 @media (prefers-reduced-motion: no-preference) {
   :link:not([tabindex="-1"]),
-button:not([tabindex="-1"]) {
+  button:not([tabindex="-1"]) {
     transition: all 0.3s ease-out;
   }
 }
