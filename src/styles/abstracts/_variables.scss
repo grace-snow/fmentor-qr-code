@@ -1,12 +1,14 @@
 /* Base properties */
+/* updated brand-light and focus-outline to pass WCAG level AA */
 :root {
-  --max-content: 75rem;
-  --gap: 1rem;
-  --radius: 20px;
-  --focus-color: orange;
   // Colors
   --color-white: hsl(0, 0%, 100%);
   --color-grey: hsl(212, 45%, 89%);
-  --color-brand-light: hsl(220, 15%, 55%);
+  --color-brand-light: hsl(215, 17%, 48%);
   --color-brand-dark: hsl(218, 44%, 22%);
+  --focus-color: #793b9c;
+  // Spacings
+  --max-content: 75rem;
+  --gap: 1rem;
+  --radius: 20px;
 }
