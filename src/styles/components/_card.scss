@@ -3,16 +3,18 @@
 @use "../abstracts/functions" as func;
 
 .card {
-  margin: var(--gap) auto;
-  padding: var(--gap);
+  // margin: var(--gap) auto;
+  padding: 15px;
   max-width: func.rem(320px);
   background-color: var(--color-white);
   border-radius: var(--radius);
+  box-shadow: 0px func.rem(25px) func.rem(25px) rgba(0, 0, 0, 0.05);
 }
 
 .card__img {
   --radius: 10px;
   border-radius: var(--radius);
+  aspect-ratio: 1;
 }
 
 .card__title {
