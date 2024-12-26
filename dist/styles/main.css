@@ -50,6 +50,7 @@ ol[role=list] {
 
 /* Set core body defaults */
 body {
+  margin: 0;
   min-height: 100vh;
   min-height: 100svh;
   line-height: 1.5;
@@ -166,21 +167,21 @@ h6 {
   color: var(--color-brand-dark);
 }
 
-:link,
+a[href],
 button {
   border-radius: 0.2em;
 }
 @media (prefers-reduced-motion: no-preference) {
-  :link:not([tabindex="-1"]),
+  a[href]:not([tabindex="-1"]),
 button:not([tabindex="-1"]) {
     transition: all 0.3s ease-out;
   }
 }
-:link:not([tabindex="-1"]):hover,
+a[href]:not([tabindex="-1"]):hover,
 button:not([tabindex="-1"]):hover {
   filter: brightness(0.6);
 }
-:link:not([tabindex="-1"]):focus-visible,
+a[href]:not([tabindex="-1"]):focus-visible,
 button:not([tabindex="-1"]):focus-visible {
   outline: solid var(--focus-color) 0.1875rem;
   outline-offset: 0.1875rem;
